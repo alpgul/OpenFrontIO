@@ -62,7 +62,7 @@ export class UILayer implements Layer {
     private transformHandler: TransformHandler,
   ) {
     this.theme = game.config().theme();
-    this.warshipRange = this.game.config().warshipTargettingRange();
+    this.warshipRange = 130;
     this.SAMRange = this.game.config().samSearchRange();
     this.defensePostRange = this.game.config().defensePostRange();
   }
